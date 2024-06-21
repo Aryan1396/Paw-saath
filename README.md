@@ -27,5 +27,5 @@ Currently, two official plugins are available:
 
    **If you want to run**
    1) clone the repo.
-   2) run npm i
+   2) run commond "npm i"
    3) run commond "npm start div"
