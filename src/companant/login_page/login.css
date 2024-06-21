@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* whole body cover div */
+.main_div{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+/* main div cover all the elements */
+.cover_div{
+    width: 60%;
+    height: 65%;
+    background-color: rgba(250, 198, 135, 0.488);
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* logo div */
+.logo{
+    font-size: 3vw;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* input filed div  */
+.input_filed{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 7vw;
+}
+
+/* input filed style */
+.input_class_div{
+    width: 15vw;
+    height: 4vw;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+#form-input-for-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+/* the third element in input flied */
+#third_input-filed{
+    background-color:  rgba(255, 0, 0, 0.703);
+    color: white;
+    font: bolder;
+    padding-top: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 15vw;
+    height: 5vw;
+    padding: 10px;
+    
+}
+
+/* the continue with div */
+.continue-with{
+    position: relative;
+    width: 60%;
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+    color: rgba(255, 0, 0, 0.616);
+    border-top: solid 2px red;
+
+}
+
+/* continue with text  */
+#continue_with_text{
+    position: absolute;
+    top: -13px;
+    background-color: #fde3c5;
+    left: 13vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* main continue with options div */
+.continue-with-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+/* main continue with options style */
+.continue-with-options-icons{
+    width: 50px;
+    margin-left: 20px;
+    border: solid 2px rgb(0, 0, 0);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* do it later cover div */
+.do_it_later{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+/* first element of do it later */
+#first-element-do_it_later{
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+/* third element of do it later */
+#second-element-do_it_later{
+    font-size: 18px;
+}
+
+/* sing in option span tag in do it later div*/
+#sing-in-option{
+    color: rgba(255, 0, 0, 0.616);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cover_div{
+        width: 70%;
+        height: 75%;
+        
+    }
+  
+    .input_filed{
+       margin-top: 18vw;
+       width: 30vw;
+    }
+    #continue_with_text{
+       font-size: 15px;
+       margin-left: 5px;
+    
+    }
+    .continue-with{
+       width: 50vw;
+    
+    }
+  }
+
+  @media only screen and (max-width: 411px) {
+    .cover_div{
+        width: 70%;
+        height: 75%;
+    }
+  
+    .input_filed{
+       margin-top: 25vw;
+       width: 37vw;
+    }
+    #continue_with_text{
+       font-size: 15px;
+    
+    }
+    .continue-with{
+       width: 60vw;
+    
+    }
+    .continue-with-options{
+       margin-top: 8vw;
+    }
+    
+  }
